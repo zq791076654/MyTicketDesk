@@ -8,7 +8,7 @@ namespace MyTicketDesk.Web.Client
         public void Configuration(IAppBuilder app)
         {
             RegisterRoutes(RouteTable.Routes);
-
+            ConfigureAuth(app);
         }
     }
 }
