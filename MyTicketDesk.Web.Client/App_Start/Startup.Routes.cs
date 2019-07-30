@@ -7,12 +7,12 @@ using System.Web.Routing;
 
 namespace MyTicketDesk.Web.Client
 {
-    public class RouteConfig
-    {
+	public partial class Startup
+	{
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
+            routes.MapMvcAttributeRoutes();
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
