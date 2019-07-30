@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTicketDesk.Web.Client", "MyTicketDesk.Web.Client\MyTicketDesk.Web.Client.csproj", "{A10DDD60-29A5-4603-AE3F-51590316C5BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTicketDesk.Web.Identity", "MyTicketDesk.Web.Identity\MyTicketDesk.Web.Identity.csproj", "{BCFF5706-3F78-43C2-8593-6FD9A0B3550E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A10DDD60-29A5-4603-AE3F-51590316C5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A10DDD60-29A5-4603-AE3F-51590316C5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A10DDD60-29A5-4603-AE3F-51590316C5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFF5706-3F78-43C2-8593-6FD9A0B3550E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFF5706-3F78-43C2-8593-6FD9A0B3550E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFF5706-3F78-43C2-8593-6FD9A0B3550E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFF5706-3F78-43C2-8593-6FD9A0B3550E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
