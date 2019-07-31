@@ -6,16 +6,10 @@ using System.Web.Mvc;
 
 namespace MyTicketDesk.Web.Client.Controllers
 {
-    [TdAuthorize]
-    public class HomeController : Controller
+    public class UserController : Controller
     {
-        // GET: Home
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult About()
+        // GET: User
+        public ActionResult SignIn()
         {
             return View();
         }
