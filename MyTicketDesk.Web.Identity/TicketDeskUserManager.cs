@@ -9,6 +9,7 @@ namespace MyTicketDesk.Web.Identity
         public TicketDeskUserManager(IUserStore<TicketDeskUser> store)
            : base(store)
         {
+
             ConfigureUserManager();
         }
 
